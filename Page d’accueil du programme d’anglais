@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Programme d'Accompagnement en Anglais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #003366;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #004080;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Programme d'Accompagnement en Langue Anglaise</h1>
+    <p>Un projet initié par Codjo Thibaut GBAMINTON pour faciliter votre apprentissage</p>
+  </header>
+
+  <div class="container">
+    <h2>Formulaire d’inscription</h2>
+    <form action="https://formspree.io/f/xldnrnlq" method="POST">
+      <input type="hidden" name="_redirect" value="https://thibaut0807.github.io/anglais_accompagnement/merci.html">
+
+      <label for="nom">Nom complet :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Adresse email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telephone">Numéro de téléphone :</label>
+      <input type="tel" id="telephone" name="telephone">
+
+      <label for="niveau">Niveau d'anglais actuel :</label>
+      <input type="text" id="niveau" name="niveau" placeholder="Débutant, Intermédiaire, Avancé">
+
+      <button type="submit">S'inscrire au programme</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Codjo Thibaut GBAMINTON – Tous droits réservés
+  </footer>
+</body>
+</html>
+
